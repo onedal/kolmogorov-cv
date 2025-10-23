@@ -9,6 +9,7 @@ export default defineConfig({
 	},
 	preview: {
 		port: parseInt(process.env.PORT || '4173'),
-		host: true
+		host: true,
+		allowedHosts: ['kolmogorov.dev', 'localhost', '127.0.0.1']
 	}
 });
