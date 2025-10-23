@@ -33,7 +33,7 @@ npm run build
 print_status "Starting production server..."
 pm2 stop kolmogorov-cv 2>/dev/null || true
 pm2 delete kolmogorov-cv 2>/dev/null || true
-pm2 start ecosystem.config.js
+pm2 start ecosystem.config.cjs
 
 print_success "✅ Deployed successfully on port 3090!"
 print_status "Check status: pm2 status"
