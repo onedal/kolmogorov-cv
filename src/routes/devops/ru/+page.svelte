@@ -13,8 +13,9 @@
 </script>
 
 <svelte:head>
-	<title>DevOps Engineer - Алексей Колмогоров</title>
-	<meta name="description" content="Резюме DevOps Engineer Алексея Колмогорова на русском языке" />
+	<title>Алексей Колмогоров - DevOps Engineer | AWS, Kubernetes, CI/CD</title>
+	<meta name="description" content="Опытный DevOps Engineer с 10+ летним опытом в AWS, Kubernetes, CI/CD и автоматизации инфраструктуры. Полное резюме с опытом работы и навыками." />
+	<meta name="keywords" content="devops engineer, aws, kubernetes, ci/cd, docker, terraform, алексей колмогоров, резюме, devops" />
 </svelte:head>
 
 <main class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">

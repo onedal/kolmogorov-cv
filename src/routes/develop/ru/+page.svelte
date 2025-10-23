@@ -13,8 +13,9 @@
 </script>
 
 <svelte:head>
-	<title>Backend Developer - Алексей Колмогоров</title>
-	<meta name="description" content="Резюме Backend Developer Алексея Колмогорова на русском языке" />
+	<title>Алексей Колмогоров - Backend Developer | Ruby on Rails, Микросервисы</title>
+	<meta name="description" content="Опытный Backend Developer с 10+ летним опытом в Ruby on Rails, микросервисах и AWS. Полное резюме с опытом работы, навыками и проектами." />
+	<meta name="keywords" content="backend developer, ruby on rails, микросервисы, aws, kubernetes, docker, алексей колмогоров, резюме, разработчик" />
 </svelte:head>
 
 <main class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">

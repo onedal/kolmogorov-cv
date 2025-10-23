@@ -10,6 +10,13 @@
 	function selectSpecialization(specialization) {
 		goto(`/${specialization}/ru`);
 	}
+</script>
+
+<svelte:head>
+	<title>Алексей Колмогоров - Senior Backend Engineer | CV</title>
+	<meta name="description" content="Опытный backend разработчик с 10+ летним опытом в Ruby on Rails, микросервисах и DevOps. Специализация: Backend Development и DevOps Engineering." />
+	<meta name="keywords" content="backend developer, ruby on rails, микросервисы, devops, aws, kubernetes, docker, алексей колмогоров, резюме" />
+</svelte:head>
 	
 	const projects = [
 		{

@@ -13,8 +13,9 @@
 </script>
 
 <svelte:head>
-	<title>DevOps Engineer - Alexey Kolmogorov</title>
-	<meta name="description" content="DevOps Engineer resume of Alexey Kolmogorov in English" />
+	<title>Alexey Kolmogorov - DevOps Engineer | AWS, Kubernetes, CI/CD</title>
+	<meta name="description" content="Experienced DevOps Engineer with 10+ years of experience in AWS, Kubernetes, CI/CD and infrastructure automation. Complete resume with work experience and skills." />
+	<meta name="keywords" content="devops engineer, aws, kubernetes, ci/cd, docker, terraform, alexey kolmogorov, resume, devops" />
 </svelte:head>
 
 <main class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
