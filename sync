@@ -1,4 +1,4 @@
-git pull https://onedal:${GIT_TOKEN}@github.com/CrawlerX-parsers/kolmogorov-cv.git
+git pull https://github.com/onedal/kolmogorov-cv.git
 npm run build
 pm2 stop kolmogorov-cv
-PORT=3010  pm2 start build/index.js --name kolmogorov-cv
+PORT=3090  pm2 start build/index.js --name kolmogorov-cv

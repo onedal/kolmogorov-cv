@@ -50,6 +50,40 @@ The application supports custom ports through environment variables:
 - `npm run dev:3090` - Start on port 3090
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
+- `npm run start` - Start production server on port 3090
+- `npm run start:prod` - Start production server with optimizations
+
+### Production Deployment
+
+#### Quick Start:
+```bash
+# Build and start production server
+./start-prod.sh
+```
+
+#### Manual Production:
+```bash
+# Build the application
+npm run build
+
+# Start production server
+npm run start
+```
+
+#### With PM2 (recommended for production):
+```bash
+# Install PM2 globally
+npm install -g pm2
+
+# Start with PM2
+pm2 start ecosystem.config.js
+
+# Check status
+pm2 status
+
+# View logs
+pm2 logs kolmogorov-cv
+```
 
 ## 📁 Project Structure
 

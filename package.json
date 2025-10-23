@@ -7,7 +7,9 @@
     "build": "vite build",
     "dev": "vite dev --port ${PORT:-5173}",
     "dev:3090": "PORT=3090 vite dev",
-    "preview": "vite preview --port ${PORT:-4173}"
+    "preview": "vite preview --port ${PORT:-4173}",
+    "start": "PORT=3090 vite preview --host",
+    "start:prod": "PORT=3090 vite preview --host --mode production"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",
