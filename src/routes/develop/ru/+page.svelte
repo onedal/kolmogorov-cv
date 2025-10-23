@@ -16,6 +16,15 @@
 	<title>Алексей Колмогоров - Backend Developer | Ruby on Rails, Микросервисы</title>
 	<meta name="description" content="Опытный Backend Developer с 10+ летним опытом в Ruby on Rails, микросервисах и AWS. Полное резюме с опытом работы, навыками и проектами." />
 	<meta name="keywords" content="backend developer, ruby on rails, микросервисы, aws, kubernetes, docker, алексей колмогоров, резюме, разработчик" />
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:title" content="Алексей Колмогоров - Backend Developer | Ruby on Rails, Микросервисы" />
+	<meta property="og:description" content="Опытный Backend Developer с 10+ летним опытом в Ruby on Rails, микросервисах и AWS. Полное резюме с опытом работы, навыками и проектами." />
+	<meta property="og:url" content="https://kolmogorov.dev/develop/ru" />
+	
+	<!-- Twitter -->
+	<meta property="twitter:title" content="Алексей Колмогоров - Backend Developer | Ruby on Rails, Микросервисы" />
+	<meta property="twitter:description" content="Опытный Backend Developer с 10+ летним опытом в Ruby on Rails, микросервисах и AWS. Полное резюме с опытом работы, навыками и проектами." />
 </svelte:head>
 
 <main class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
