@@ -8,9 +8,9 @@ export const RESUME_DATA: Record<Language, Record<Specialization, ResumeData>> =
 				name: 'Алексей Колмогоров',
 				title: 'Senior Backend Engineer',
 				location: 'Москва, Россия',
-				email: 'sunrise3323@gmail.com',
+				email: 'alex@kolmogorov.dev',
 				linkedin: 'linkedin.com/in/kolmogorov',
-				github: 'github.com/kolmogorov',
+				github: 'github.com/onedal',
 				telegram: '@megabobep'
 			},
 			about: 'Senior Backend Engineer с 10+ летним опытом разработки высоконагруженных систем и микросервисов. Специализируюсь на Ruby, Ruby on Rails, архитектуре микросервисов и облачных технологиях.',
@@ -50,9 +50,9 @@ export const RESUME_DATA: Record<Language, Record<Specialization, ResumeData>> =
 				}
 			],
 			contacts: {
-				email: 'sunrise3323@gmail.com',
+				email: 'alex@kolmogorov.dev',
 				linkedin: 'linkedin.com/in/kolmogorov',
-				github: 'github.com/kolmogorov',
+				github: 'github.com/onedal',
 				telegram: '@megabobep'
 			}
 		},
@@ -61,9 +61,9 @@ export const RESUME_DATA: Record<Language, Record<Specialization, ResumeData>> =
 				name: 'Алексей Колмогоров',
 				title: 'DevOps Engineer',
 				location: 'Москва, Россия',
-				email: 'sunrise3323@gmail.com',
+				email: 'alex@kolmogorov.dev',
 				linkedin: 'linkedin.com/in/kolmogorov',
-				github: 'github.com/kolmogorov',
+				github: 'github.com/onedal',
 				telegram: '@megabobep'
 			},
 			about: 'DevOps инженер с глубокими знаниями в области автоматизации, контейнеризации и облачных технологий.',
@@ -72,9 +72,9 @@ export const RESUME_DATA: Record<Language, Record<Specialization, ResumeData>> =
 			skills: [],
 			projects: [],
 			contacts: {
-				email: 'sunrise3323@gmail.com',
+				email: 'alex@kolmogorov.dev',
 				linkedin: 'linkedin.com/in/kolmogorov',
-				github: 'github.com/kolmogorov',
+				github: 'github.com/onedal',
 				telegram: '@megabobep'
 			}
 		}
@@ -85,9 +85,9 @@ export const RESUME_DATA: Record<Language, Record<Specialization, ResumeData>> =
 				name: 'Alexey Kolmogorov',
 				title: 'Senior Backend Engineer',
 				location: 'Moscow, Russia',
-				email: 'sunrise3323@gmail.com',
+				email: 'alex@kolmogorov.dev',
 				linkedin: 'linkedin.com/in/kolmogorov',
-				github: 'github.com/kolmogorov',
+				github: 'github.com/onedal',
 				telegram: '@megabobep'
 			},
 			about: 'Senior Backend Engineer with 10+ years of experience developing high-load systems and microservices.',
@@ -96,9 +96,9 @@ export const RESUME_DATA: Record<Language, Record<Specialization, ResumeData>> =
 			skills: [],
 			projects: [],
 			contacts: {
-				email: 'sunrise3323@gmail.com',
+				email: 'alex@kolmogorov.dev',
 				linkedin: 'linkedin.com/in/kolmogorov',
-				github: 'github.com/kolmogorov',
+				github: 'github.com/onedal',
 				telegram: '@megabobep'
 			}
 		},
@@ -107,9 +107,9 @@ export const RESUME_DATA: Record<Language, Record<Specialization, ResumeData>> =
 				name: 'Alexey Kolmogorov',
 				title: 'DevOps Engineer',
 				location: 'Moscow, Russia',
-				email: 'sunrise3323@gmail.com',
+				email: 'alex@kolmogorov.dev',
 				linkedin: 'linkedin.com/in/kolmogorov',
-				github: 'github.com/kolmogorov',
+				github: 'github.com/onedal',
 				telegram: '@megabobep'
 			},
 			about: 'DevOps Engineer with deep knowledge in automation, containerization and cloud technologies.',
@@ -118,9 +118,9 @@ export const RESUME_DATA: Record<Language, Record<Specialization, ResumeData>> =
 			skills: [],
 			projects: [],
 			contacts: {
-				email: 'sunrise3323@gmail.com',
+				email: 'alex@kolmogorov.dev',
 				linkedin: 'linkedin.com/in/kolmogorov',
-				github: 'github.com/kolmogorov',
+				github: 'github.com/onedal',
 				telegram: '@megabobep'
 			}
 		}

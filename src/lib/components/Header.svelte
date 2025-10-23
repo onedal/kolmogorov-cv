@@ -18,20 +18,20 @@
 			lastName: 'Колмогоров',
 			title: isDevOps ? 'DevOps Engineer' : 'Senior Backend Engineer',
 			location: 'Москва, Россия',
-			email: 'sunrise3323@gmail.com',
+			email: 'alex@kolmogorov.dev',
 			phone: '+7 999 059-70-82',
 			linkedin: 'linkedin.com/in/kolmogorov',
-			github: 'github.com/kolmogorov'
+			github: 'github.com/onedal'
 		},
 		en: {
 			firstName: 'Alexey',
 			lastName: 'Kolmogorov',
 			title: isDevOps ? 'DevOps Engineer' : 'Senior Backend Engineer',
 			location: 'Moscow, Russia',
-			email: 'sunrise3323@gmail.com',
+			email: 'alex@kolmogorov.dev',
 			phone: '+7 999 059-70-82',
 			linkedin: 'linkedin.com/in/kolmogorov',
-			github: 'github.com/kolmogorov'
+			github: 'github.com/onedal'
 		}
 	};
 	

@@ -249,7 +249,7 @@
 							</div>
 							<div>
 								<h3 class="font-semibold text-gray-800">Email</h3>
-								<a href="mailto:sunrise3323@gmail.com" class="text-blue-600 hover:text-blue-700 transition-colors">sunrise3323@gmail.com</a>
+								<a href="mailto:alex@kolmogorov.dev" class="text-blue-600 hover:text-blue-700 transition-colors">alex@kolmogorov.dev</a>
 							</div>
 						</div>
 					</div>
@@ -277,7 +277,7 @@
 							</div>
 							<div>
 								<h3 class="font-semibold text-gray-800">GitHub</h3>
-								<a href="https://github.com/kolmogorov" target="_blank" rel="noopener" class="text-green-600 hover:text-green-700 transition-colors">github.com/kolmogorov</a>
+								<a href="https://github.com/onedal" target="_blank" rel="noopener" class="text-green-600 hover:text-green-700 transition-colors">github.com/onedal</a>
 							</div>
 						</div>
 					</div>

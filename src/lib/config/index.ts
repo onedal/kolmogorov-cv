@@ -32,8 +32,8 @@ export const PDF_FILES = {
 } as const;
 
 export const CONTACT_INFO = {
-	email: 'sunrise3323@gmail.com',
+	email: 'alex@kolmogorov.dev',
 	linkedin: 'linkedin.com/in/kolmogorov',
-	github: 'github.com/kolmogorov',
+	github: 'github.com/onedal',
 	telegram: '@megabobep'
 } as const;

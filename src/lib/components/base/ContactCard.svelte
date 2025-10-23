@@ -18,7 +18,7 @@
 	</div>
 	<div class="flex items-center gap-3">
 		<Github class="w-4 h-4 text-muted-foreground" />
-		<a href="https://github.com/kolmogorov" target="_blank" rel="noopener" class="text-sm hover:text-primary transition-colors">GitHub</a>
+		<a href="https://github.com/onedal" target="_blank" rel="noopener" class="text-sm hover:text-primary transition-colors">GitHub</a>
 	</div>
 	<div class="flex items-center gap-3">
 		<MessageCircle class="w-4 h-4 text-muted-foreground" />

@@ -10,17 +10,17 @@
 		ru: {
 			title: 'Контакты',
 			downloadPdf: 'Скачать резюме PDF',
-			email: 'sunrise3323@gmail.com',
+			email: 'alex@kolmogorov.dev',
 			linkedin: 'linkedin.com/in/kolmogorov',
-			github: 'github.com/kolmogorov',
+			github: 'github.com/onedal',
 			telegram: '@megabobep'
 		},
 		en: {
 			title: 'Contacts',
 			downloadPdf: 'Download Resume PDF',
-			email: 'sunrise3323@gmail.com',
+			email: 'alex@kolmogorov.dev',
 			linkedin: 'linkedin.com/in/kolmogorov',
-			github: 'github.com/kolmogorov',
+			github: 'github.com/onedal',
 			telegram: '@megabobep'
 		}
 	};
@@ -65,7 +65,7 @@
 				<div class="flex flex-col items-center p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl hover:shadow-lg transition-all duration-300">
 					<Github class="w-6 h-6 text-green-600 mb-2" />
 					<span class="text-sm font-medium text-gray-800 mb-1">GitHub</span>
-					<a href="https://github.com/kolmogorov" target="_blank" rel="noopener" class="text-green-600 hover:text-green-700 transition-colors text-sm">GitHub</a>
+					<a href="https://github.com/onedal" target="_blank" rel="noopener" class="text-green-600 hover:text-green-700 transition-colors text-sm">GitHub</a>
 				</div>
 				
 				<div class="flex flex-col items-center p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl hover:shadow-lg transition-all duration-300">
