@@ -4,21 +4,47 @@ A modern, responsive CV website built with SvelteKit, Tailwind CSS, and TypeScri
 
 ## 🚀 Quick Start
 
-### Development Server
+### Local Development
 
-#### Default port (5173):
+#### Development server (recommended):
+```bash
+./dev-local.sh
+```
+
+#### Manual development:
 ```bash
 npm run dev
 ```
 
-#### Custom port (3090):
+#### Custom port:
 ```bash
 PORT=3090 npm run dev
 ```
 
-#### Predefined port script:
+### Local Production Testing
+
+#### Build and serve locally:
 ```bash
-npm run dev:3090
+./build-local.sh
+```
+
+#### Manual build and serve:
+```bash
+npm run build
+serve -s build -l 3090
+```
+
+### Production Deployment
+
+#### On production server (with PM2):
+```bash
+./sync
+```
+
+#### Manual production deployment:
+```bash
+npm run build
+pm2 start ecosystem.config.cjs
 ```
 
 ### Build and Preview

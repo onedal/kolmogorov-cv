@@ -4,8 +4,64 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Алексей Колмогоров - CV</title>
-		<meta name="description" content="Резюме Алексея Колмогорова - Frontend разработчик" />
+		
+		<!-- SEO Meta Tags -->
+		<title>%sveltekit.title%</title>
+		<meta name="description" content="%sveltekit.description%" />
+		<meta name="keywords" content="%sveltekit.keywords%" />
+		<meta name="author" content="Алексей Колмогоров" />
+		<meta name="robots" content="index, follow" />
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://kolmogorov.dev/" />
+		<meta property="og:title" content="%sveltekit.title%" />
+		<meta property="og:description" content="%sveltekit.description%" />
+		<meta property="og:image" content="https://kolmogorov.dev/og-image.jpg" />
+		<meta property="og:site_name" content="Алексей Колмогоров - CV" />
+		<meta property="og:locale" content="ru_RU" />
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://kolmogorov.dev/" />
+		<meta property="twitter:title" content="%sveltekit.title%" />
+		<meta property="twitter:description" content="%sveltekit.description%" />
+		<meta property="twitter:image" content="https://kolmogorov.dev/og-image.jpg" />
+		
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://kolmogorov.dev/" />
+		
+		<!-- Structured Data -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Алексей Колмогоров",
+			"jobTitle": "Senior Backend Engineer",
+			"description": "Опытный backend разработчик с 10+ летним опытом в Ruby on Rails, микросервисах и DevOps",
+			"url": "https://kolmogorov.dev",
+			"sameAs": [
+				"https://github.com/onedal",
+				"https://linkedin.com/in/kolmogorov",
+				"https://t.me/megabobep"
+			],
+			"email": "alex@kolmogorov.dev",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Москва",
+				"addressCountry": "RU"
+			},
+			"knowsAbout": [
+				"Ruby on Rails",
+				"Backend Development",
+				"Microservices",
+				"DevOps",
+				"AWS",
+				"Kubernetes",
+				"Docker"
+			]
+		}
+		</script>
 		
 		<!-- Yandex.Metrika counter -->
 		<script type="text/javascript">
