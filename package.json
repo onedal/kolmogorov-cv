@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite dev",
-    "preview": "vite preview"
+    "dev": "vite dev --port ${PORT:-5173}",
+    "dev:3090": "PORT=3090 vite dev",
+    "preview": "vite preview --port ${PORT:-4173}"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",
