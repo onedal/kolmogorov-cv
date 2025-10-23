@@ -85,6 +85,27 @@ pm2 status
 pm2 logs kolmogorov-cv
 ```
 
+#### Production Deployment Scripts:
+
+**Full Sync (recommended):**
+```bash
+# Complete update, build, and deploy
+./sync
+```
+
+**Quick Deploy:**
+```bash
+# Fast deploy without git pull
+./deploy.sh
+```
+
+**Manual Production:**
+```bash
+# Build and start manually
+npm run build
+pm2 start ecosystem.config.js
+```
+
 ## 📁 Project Structure
 
 ```
