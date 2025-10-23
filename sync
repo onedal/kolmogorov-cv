@@ -39,13 +39,9 @@ npm run build
 
 # Step 4: Stop existing PM2 process
 print_status "Stopping existing PM2 process..."
-if pm2 list | grep -q "kolmogorov-cv"; then
-    pm2 stop kolmogorov-cv
-    pm2 delete kolmogorov-cv
-    print_success "Existing process stopped"
-else
-    print_status "No existing process found"
-fi
+pm2 stop kolmogorov-cv 2>/dev/null || true
+pm2 delete kolmogorov-cv 2>/dev/null || true
+print_success "Existing processes stopped"
 
 # Step 5: Start PM2 process
 print_status "Starting PM2 process on port 3090..."

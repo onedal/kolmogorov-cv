@@ -3,7 +3,7 @@ module.exports = {
     name: 'kolmogorov-cv',
     script: 'npm',
     args: 'run start:prod',
-    cwd: '/Users/alekseykolmogorov/projects-archieve/seo/kolmogorov-cv',
+    cwd: process.cwd(),
     instances: 1,
     autorestart: true,
     watch: false,
