@@ -15,14 +15,14 @@
 		ru: {
 			title: 'Навыки',
 			develop: {
-				advanced: ['Ruby', 'Ruby on Rails', 'GraphQL', 'OpenAPI', 'ECS', 'Github Actions', 'Design Microservice', 'Serverless architecture', 'Docker', 'CI/CD', 'REST API', 'JSON API', 'Helm', 'Playwright'],
-				intermediate: ['Linux', 'Kafka', 'AWS', 'Terraform', 'CDK', 'Kubernetes', 'Selectel', 'MongoDB', 'PostgreSQL', 'TypeScript'],
-				basic: ['Golang']
+				advanced: ['Ruby', 'Ruby On Rails', 'GraphQL', 'OpenApi', 'GRPC', 'Github Actions', 'Design Microservice', 'Serverless architecture', 'Docker', 'Helm', 'Playwright'],
+				intermediate: ['Linux', 'kafka', 'AWS', 'Terraform', 'Kubernetes', 'PostgreSQL', 'TypeScript'],
+				basic: []
 			},
 			devops: {
-				advanced: ['Docker', 'Kubernetes', 'AWS', 'Terraform', 'CI/CD', 'Linux', 'Kafka'],
-				intermediate: ['Ruby', 'Ruby on Rails', 'GraphQL', 'OpenAPI', 'ECS', 'Github Actions', 'Design Microservice', 'Serverless architecture', 'REST API', 'JSON API', 'Helm', 'Playwright'],
-				basic: ['Golang', 'MongoDB', 'PostgreSQL', 'TypeScript']
+				advanced: ['OpenApi', 'ECS', 'Github Actions', 'Design Microservice', 'Serverless architecture', 'Docker', 'CI/CD', 'REST API', 'JSON API', 'RUBY', 'Helm'],
+				intermediate: ['Linux', 'kafka', 'Terraform', 'AWS (more 30 services)', 'AWS CDK', 'Kubernetes', 'Selectel', 'MongoDB', 'PostgreSQL', 'TypeScript'],
+				basic: []
 			}
 		},
 		en: {
@@ -70,13 +70,15 @@
 			</div>
 		</div>
 		
-		<div>
-			<h4 class="text-sm font-medium text-muted-foreground mb-2">Базовый уровень</h4>
-			<div class="flex flex-wrap gap-2">
-				{#each skillData.basic as skill}
-					<Badge variant="outline">{skill}</Badge>
-				{/each}
+		{#if skillData.basic && skillData.basic.length > 0}
+			<div>
+				<h4 class="text-sm font-medium text-muted-foreground mb-2">Базовый уровень</h4>
+				<div class="flex flex-wrap gap-2">
+					{#each skillData.basic as skill}
+						<Badge variant="outline">{skill}</Badge>
+					{/each}
+				</div>
 			</div>
-		</div>
+		{/if}
 	</CardContent>
 </Card>

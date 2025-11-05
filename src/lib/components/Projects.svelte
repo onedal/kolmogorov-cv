@@ -12,21 +12,23 @@
 	
 	const projects = {
 		ru: {
-			title: 'Проекты',
+			title: 'Личные проекты',
 			items: [
 				{
 					name: 'CrawlerX',
-					description: 'Сеть парсеров для автоматизации сбора данных с веб-сайтов. Масштабируемая система с поддержкой различных типов парсинга, обработки данных и интеграции с внешними API.',
-					technologies: ['Ruby on Rails', 'Redis', 'Sidekiq', 'PostgreSQL', 'Docker', 'Kubernetes', 'AWS'],
-					url: 'https://crawlerx.com',
-					github: 'https://github.com/crawlerx'
+					description: 'Распределённая сеть парсеров на Playwright с отправкой событий в backend API для автоматизированного сбора контента.\nУправление сетью из 20+ сайтов для доставки контента пользователям, монетизация через рекламу.',
+					technologies: ['AWS SQS', 'Playwright', 'Svelte', 'PostgreSQL', 'Rails API', 'Sidekiq'],
+					url: 'https://api.crawlerx.ru/admin/login',
+					github: 'https://github.com/crawlerx',
+					period: 'с 2024 по настоящее'
 				},
 				{
 					name: 'Begifly',
-					description: 'Платформа для управления полетами и бронирования авиабилетов. Интегрированная система с API авиакомпаний, обработкой платежей и уведомлениями в реальном времени.',
-					technologies: ['Ruby on Rails', 'React', 'PostgreSQL', 'Redis', 'Stripe API', 'WebSocket', 'AWS'],
-					url: 'https://begifly.com',
-					github: 'https://github.com/begifly'
+					description: 'Платформа для управления тренировками, ориентированная на тренеров по бегу и атлетов.\nПоддерживает интеграцию со Strava, AI-тренера и AI-анализ тренировок.\nДоступна через веб-приложение (Svelte) и Telegram Mini App',
+					technologies: ['Rails API', 'Svelte', 'Telegram mini app', 'AWS', 'Strava API', 'OpenAI api'],
+					url: 'https://begifly.com/',
+					github: 'https://github.com/begifly',
+					period: '2024 по настоящее'
 				}
 			]
 		},
@@ -36,16 +38,18 @@
 				{
 					name: 'CrawlerX',
 					description: 'Network of parsers for web scraping automation. Scalable system with support for various parsing types, data processing and integration with external APIs.',
-					technologies: ['Ruby on Rails', 'Redis', 'Sidekiq', 'PostgreSQL', 'Docker', 'Kubernetes', 'AWS'],
+					technologies: ['AWS SQS', 'Playwright', 'Svelte', 'PostgreSQL', 'Rails API', 'Sidekiq'],
 					url: 'https://crawlerx.com',
-					github: 'https://github.com/crawlerx'
+					github: 'https://github.com/crawlerx',
+					period: '2024 - Present'
 				},
 				{
 					name: 'Begifly',
 					description: 'Flight management and airline booking platform. Integrated system with airline APIs, payment processing and real-time notifications.',
-					technologies: ['Ruby on Rails', 'React', 'PostgreSQL', 'Redis', 'Stripe API', 'WebSocket', 'AWS'],
+					technologies: ['Rails API', 'Svelte', 'Telegram mini app', 'AWS', 'Strava API', 'OpenAI api'],
 					url: 'https://begifly.com',
-					github: 'https://github.com/begifly'
+					github: 'https://github.com/begifly',
+					period: '2024 - Present'
 				}
 			]
 		}
@@ -65,7 +69,20 @@
 		{#each info.items as project}
 			<div class="border-l-4 border-primary pl-4">
 				<div class="flex items-start justify-between mb-3">
-					<h3 class="text-lg font-semibold text-foreground">{project.name}</h3>
+					<div class="flex-1">
+						{#if project.url}
+							<h3 class="text-lg font-semibold text-foreground">
+								<a href={project.url} target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+									{project.name}
+								</a>
+							</h3>
+						{:else}
+							<h3 class="text-lg font-semibold text-foreground">{project.name}</h3>
+						{/if}
+						{#if project.period}
+							<p class="text-sm text-muted-foreground mt-1">{project.period}</p>
+						{/if}
+					</div>
 					<div class="flex gap-2">
 						{#if project.url}
 							<a href={project.url} target="_blank" rel="noopener" class="text-primary hover:text-primary/80 transition-colors">
@@ -79,7 +96,7 @@
 						{/if}
 					</div>
 				</div>
-				<p class="text-muted-foreground mb-4 leading-relaxed">{project.description}</p>
+				<p class="text-muted-foreground mb-4 leading-relaxed whitespace-pre-line">{project.description}</p>
 				<div class="flex flex-wrap gap-2">
 					{#each project.technologies as tech}
 						<Badge variant="outline" class="text-xs">{tech}</Badge>

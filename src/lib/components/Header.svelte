@@ -16,7 +16,7 @@
 		ru: {
 			firstName: 'Алексей',
 			lastName: 'Колмогоров',
-			title: isDevOps ? 'DevOps Engineer' : 'Senior Backend Engineer',
+			title: isDevOps ? 'DevOps & SRE Engineer' : 'Senior Backend Engineer',
 			location: 'Москва, Россия',
 			email: 'alex@kolmogorov.dev',
 			phone: '+7 999 059-70-82',
@@ -26,7 +26,7 @@
 		en: {
 			firstName: 'Alexey',
 			lastName: 'Kolmogorov',
-			title: isDevOps ? 'DevOps Engineer' : 'Senior Backend Engineer',
+			title: isDevOps ? 'DevOps & SRE Engineer' : 'Senior Backend Engineer',
 			location: 'Moscow, Russia',
 			email: 'alex@kolmogorov.dev',
 			phone: '+7 999 059-70-82',
