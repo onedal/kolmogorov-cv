@@ -15,8 +15,8 @@
 		ru: {
 			title: 'Навыки',
 			develop: {
-				advanced: ['Ruby', 'Ruby On Rails', 'GraphQL', 'OpenApi', 'GRPC', 'Github Actions', 'Design Microservice', 'Serverless architecture', 'Docker', 'Helm', 'Playwright'],
-				intermediate: ['Linux', 'kafka', 'AWS', 'Terraform', 'Kubernetes', 'PostgreSQL', 'TypeScript'],
+				advanced: ['Ruby', 'Ruby On Rails', 'GraphQL', 'OpenApi', 'ECS', 'Github Actions', 'Design Microservice', 'Serverless architecture', 'Docker', 'CI/CD', 'REST API', 'JSON API', 'Helm', 'playwright'],
+				intermediate: ['Linux', 'kafka', 'aws', 'Terraform', 'CDK', 'Kubernetes', 'Selectel', 'MongoDB', 'PostgreSQL', 'TypeScript'],
 				basic: []
 			},
 			devops: {

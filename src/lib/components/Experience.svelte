@@ -19,7 +19,7 @@
 					position: 'Backend Engineer',
 					company: 'Arival Bank',
 					companyUrl: 'https://arival.com/',
-					period: 'Декабрь 2023 — октябрь 2025',
+					period: 'Декабрь 2023 — октябрь 2025 (1 год и 10 месяцев)',
 					items: [
 						'Спроектировал и развернул с нуля event-driven микросервис для биллинга. Сервис отслеживал использование клиентских ресурсов, выполнял проверку и расчет каждого ресурса с учетом плана клиента, что позволило увеличить доход компании.',
 						'Реализовал хайлоад-сервис для data retention на основе евентов, что привело к сокращению трат инфраструктуру компании.',
@@ -29,11 +29,11 @@
 					stack: 'Ruby, Sinatra, Golang, DRY libs, AWS, K8S, Docker, GRPC'
 				},
 				{
-					position: 'Backend Engineer',
+					position: 'Senior Software Engineer',
 					company: 'Oneclick LIFE',
 					companyUrl: 'https://oneclick.life/',
 					projectName: 'Viory',
-					projectUrl: 'http://viory.video/',
+					projectUrl: 'https://viory.video/',
 					period: 'март 2023 — декабрь 2023 (9 месяцев)',
 					items: [
 						'Разработал отказоустойчивый и высокопроизводительный сервис транскодинга видео, который ускорил появление видео на платформе после загрузки в 10 раз ("time-to-publish").',
@@ -60,29 +60,18 @@
 				},
 				{
 					position: 'Тимлид разработки и DevOps',
-					company: 'ООО "БИПТИК"',
-					companyUrl: 'https://www.rusprofile.ru/id/11848858',
-					period: 'Сентябрь 2017 — Март 2022 (4 года и 6 месяцев)',
+					company: 'Biptik Pte Ltd',
+					companyUrl: 'https://www.crunchbase.com/organization/biptik',
+					period: 'Сентябрь 2015 — Март 2022 (6 лет и 6 месяцев)',
 					description: 'Тимлид разработки и DevOps — Руководил командой разработки из 5 человек: занимался распределением задач, развитием команды и контролем качества.',
 					items: [
 						'Проектировал и внедрял DevOps-архитектуру с нуля: настраивал CI/CD-процессы, автоматизировал инфраструктуру и обеспечивал стабильную работу e-commerce платформы в продакшене.',
 						'Управление командой разработки: распределение ресурсов, приоритизация задач, менторинг, внедрение системы оценки эффективности, регулярный анализ и оптимизация процессов разработки.',
-						'Архитектура и DevOps: проектирование и реализация архитектуры e-commerce платформы на базе микросервисов. Работа с облачными провайдерами (AWS, Selectel), автоматизация инфраструктуры с помощью Terraform, Kubernetes и GitHub Actions.'
+						'Разработал систему на базе Kubernetes, автоматически выдающую пользователю уникальный IP-адрес, который он мог использовать для подключения собственного домена. Магазин поднимался и становился доступен по его домену в полностью автоматическом режиме.',
+						'Реализовал полностью автоматизированную AWS-инфраструктуру по принципам Infrastructure as Code, отвечал за стабильность и масштабирование всех сервисов компании.',
+						'Создание собственного Ruby-фреймворка для ускоренной разработки serverless-приложений'
 					],
 					stack: 'Ruby, AWS (more 25+ services), K8S, terraform, Docker, OpenAPI'
-				},
-				{
-					position: 'Middle Ruby On Rails Developer',
-					company: 'Biptik Pte Ltd',
-					companyUrl: 'https://www.crunchbase.com/organization/biptik',
-					period: 'Сентябрь 2015 — Сентябрь 2018 (3 года)',
-					description: 'Проектирование архитектуры и реализация backend-логики на Ruby on Rails',
-					items: [
-						'Serverless-решения на AWS (Lambda, DynamoDB, CloudFormation)',
-						'Создание собственного Ruby-фреймворка для ускоренной разработки serverless-приложений',
-						'Реализация стратегий оптимизации затрат на AWS (включая использование spot-инстансов и S3 Glacier)'
-					],
-					stack: 'Ruby, AWS (more 25+ services), Serverless framework, GraphQL'
 				}
 			],
 			devops: [
