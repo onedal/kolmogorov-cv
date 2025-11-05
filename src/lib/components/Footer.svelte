@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import { Mail, Linkedin, Github, MessageCircle, Download } from 'lucide-svelte';
+	import { getPdfUrl, getPdfFileName, getSpecializationFromPath, getLanguageFromPath } from '$lib/utils';
 	
 	$: currentPath = $page.url.pathname;
 	$: isEnglish = currentPath.includes('/en');
@@ -26,10 +27,10 @@
 	};
 	
 	$: info = content[isEnglish ? 'en' : 'ru'];
-	$: pdfFileName = isDevOps ? 
-		(isEnglish ? 'Alexey_Kolmogorov_DevOps_Engineer_CV.pdf' : 'Алексей_Колмогоров_DevOps_Engineer_CV.pdf') :
-		(isEnglish ? 'Alexey_Kolmogorov_Backend_Developer_CV.pdf' : 'Алексей_Колмогоров_Backend_Developer_CV.pdf');
-	$: pdfUrl = `/cv/${pdfFileName}`;
+	$: specialization = getSpecializationFromPath(currentPath);
+	$: language = getLanguageFromPath(currentPath);
+	$: pdfFileName = getPdfFileName(specialization, language);
+	$: pdfUrl = getPdfUrl(specialization, language);
 </script>
 
 <footer class="bg-white border-t border-gray-200 mt-12">
