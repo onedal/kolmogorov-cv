@@ -41,7 +41,7 @@
 			<!-- Кнопка скачивания PDF -->
 			<div class="mb-8">
 				<a 
-					href={pdfUrl}
+					href={encodeURI(pdfUrl)}
 					download={pdfFileName}
 					class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium shadow-lg hover:shadow-xl"
 				>

@@ -31,9 +31,8 @@ export function getPdfFileName(specialization: Specialization, language: Languag
 
 export function getPdfUrl(specialization: Specialization, language: Language): string {
 	const fileName = getPdfFileName(specialization, language);
-	// URL-кодируем имя файла для корректной работы с кириллицей
-	const encodedFileName = encodeURIComponent(fileName);
-	return `/cv/${encodedFileName}`;
+	// Для статических файлов используем прямой путь, браузер сам обработает кодирование
+	return `/cv/${fileName}`;
 }
 
 export function formatDate(date: Date): string {
