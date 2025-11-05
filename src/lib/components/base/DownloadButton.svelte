@@ -1,7 +1,7 @@
 <!-- Reusable download button component -->
 <script lang="ts">
 	import { Download } from 'lucide-svelte';
-	import { getPdfUrl } from '../../utils';
+	import { getPdfUrl } from '$lib/utils';
 	import type { Language, Specialization } from '../../types';
 
 	export let specialization: Specialization;
